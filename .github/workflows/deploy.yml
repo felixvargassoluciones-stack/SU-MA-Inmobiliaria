@@ -24,7 +24,7 @@ jobs:
       - name: Checkout del código
         uses: actions/checkout@v4
 
-      - name: Configurar Java (Requerido por Flutter)
+      - name: Configurar Java
         uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
